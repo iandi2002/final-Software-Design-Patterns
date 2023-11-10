@@ -1,7 +1,7 @@
 # clothing_store.py
 from observer import Observable, Observer
 
-# Класс контекста, который будет использовать стратегию
+
 class ClothingStore(Observable):
     def __init__(self, clothing_strategy):
         super().__init__()
