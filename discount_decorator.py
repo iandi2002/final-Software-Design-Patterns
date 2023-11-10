@@ -2,7 +2,6 @@
 from decorator import ClothingDecorator
 
 
-# Декоратор для добавления динамической скидки к ценам одежды
 class DiscountDecorator(ClothingDecorator):
     def __init__(self, strategy, discounts):
         self.strategy = strategy
