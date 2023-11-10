@@ -1,4 +1,4 @@
-# Адаптер для отображения цен в тенге и долларах
+
 
 class PriceAdapter:
     def __init__(self, strategy):
