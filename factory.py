@@ -5,7 +5,6 @@ from main import WomenClothing, MenClothing, KidsClothing, SportClothing
 from discount_decorator import DiscountDecorator
 from main import ClothingStrategy, PriceAdapter
 
-# Фабрика для создания стратегий одежды
 class ClothingStrategyFactory:
     @staticmethod
     def create_strategy(choice):
