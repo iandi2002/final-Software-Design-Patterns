@@ -1,4 +1,4 @@
-# Конкретные стратегии
+
 
 from abc import ABC, abstractmethod
 
