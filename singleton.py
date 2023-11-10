@@ -1,4 +1,4 @@
-# Singleton для аутентификации пользователя
+
 
 class UserAuthenticationSingleton:
     _instance = None
