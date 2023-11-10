@@ -13,7 +13,6 @@ from discount_decorator import DiscountDecorator
 # from factory import ClothingStrategyFactory
 
 
-# Определяем интерфейс стратегии
 class ClothingStrategy(ABC):
     @abstractmethod
     def get_clothing_list(self):
